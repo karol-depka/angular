@@ -84,7 +84,7 @@ export abstract class Injector {
   static create(options: {providers: StaticProvider[], parent?: Injector, name?: string}): Injector;
 
   /**
-   * Create a new Injector which is configure using `StaticProvider`s.
+   * Create a new Injector which is configured using `StaticProvider`s.
    *
    * @usageNotes
    * ### Example
